@@ -40,7 +40,7 @@
 		DA52AC081F64AEF800B0210B /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DA52AC0C1F64AFE300B0210B /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		DA52AC0E1F64B52F00B0210B /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
-		DAFCE3D21F6374AC00FB9651 /* swift_myyoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_myyoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFCE3D21F6374AC00FB9651 /* MyYouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyYouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFCE3D51F6374AC00FB9651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFCE3D71F6374AC00FB9651 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		DAFCE3DA1F6374AC00FB9651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		DAFCE3D31F6374AC00FB9651 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAFCE3D21F6374AC00FB9651 /* swift_myyoutube.app */,
+				DAFCE3D21F6374AC00FB9651 /* MyYouTube.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAFCE3D11F6374AC00FB9651 /* swift_myyoutube */ = {
+		DAFCE3D11F6374AC00FB9651 /* MyYouTube */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAFCE3E41F6374AC00FB9651 /* Build configuration list for PBXNativeTarget "swift_myyoutube" */;
+			buildConfigurationList = DAFCE3E41F6374AC00FB9651 /* Build configuration list for PBXNativeTarget "MyYouTube" */;
 			buildPhases = (
 				DAFCE3CE1F6374AC00FB9651 /* Sources */,
 				DAFCE3CF1F6374AC00FB9651 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = swift_myyoutube;
+			name = MyYouTube;
 			productName = swift_youtube;
-			productReference = DAFCE3D21F6374AC00FB9651 /* swift_myyoutube.app */;
+			productReference = DAFCE3D21F6374AC00FB9651 /* MyYouTube.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAFCE3CD1F6374AC00FB9651 /* Build configuration list for PBXProject "swift_myyoutube" */;
+			buildConfigurationList = DAFCE3CD1F6374AC00FB9651 /* Build configuration list for PBXProject "MyYouTube" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAFCE3D11F6374AC00FB9651 /* swift_myyoutube */,
+				DAFCE3D11F6374AC00FB9651 /* MyYouTube */,
 			);
 		};
 /* End PBXProject section */
@@ -368,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAFCE3CD1F6374AC00FB9651 /* Build configuration list for PBXProject "swift_myyoutube" */ = {
+		DAFCE3CD1F6374AC00FB9651 /* Build configuration list for PBXProject "MyYouTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFCE3E21F6374AC00FB9651 /* Debug */,
@@ -377,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAFCE3E41F6374AC00FB9651 /* Build configuration list for PBXNativeTarget "swift_myyoutube" */ = {
+		DAFCE3E41F6374AC00FB9651 /* Build configuration list for PBXNativeTarget "MyYouTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFCE3E51F6374AC00FB9651 /* Debug */,
