@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Channel: NSObject {
+class Channel: SafeJsonObject {
     var name: String?
     var profileImageName: String?
 }
