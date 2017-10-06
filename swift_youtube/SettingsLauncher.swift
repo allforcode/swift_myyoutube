@@ -52,9 +52,7 @@ class SettingsLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDe
             blackView.alpha = 0
             
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-                
                 self.blackView.alpha = 1
-                
                 self.collectionView.frame = CGRect(x: 0, y: y, width: self.collectionView.frame.width, height: height)
             }, completion: nil)
         }
