@@ -141,7 +141,7 @@
 		DAFCE3C91F6374AC00FB9651 = {
 			isa = PBXGroup;
 			children = (
-				DAFCE3D41F6374AC00FB9651 /* swift_myyoutube */,
+				DAFCE3D41F6374AC00FB9651 /* youtube */,
 				DAFCE3D31F6374AC00FB9651 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAFCE3D41F6374AC00FB9651 /* swift_myyoutube */ = {
+		DAFCE3D41F6374AC00FB9651 /* youtube */ = {
 			isa = PBXGroup;
 			children = (
 				DA74BEBD1F7744A100DD063A /* video */,
@@ -169,8 +169,7 @@
 				DAFCE3E11F6374AC00FB9651 /* Info.plist */,
 				DA38201B1F6C7C8700F9EF4C /* Assets.xcassets */,
 			);
-			name = swift_myyoutube;
-			path = swift_youtube;
+			path = youtube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,9 +403,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SPQJBCM3BQ;
-				INFOPLIST_FILE = swift_youtube/Info.plist;
+				INFOPLIST_FILE = youtube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.podongchina.youtube.swift-youtube";
+				PRODUCT_BUNDLE_IDENTIFIER = com.podongchina.youtube.youtube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -417,9 +416,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SPQJBCM3BQ;
-				INFOPLIST_FILE = swift_youtube/Info.plist;
+				INFOPLIST_FILE = youtube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.podongchina.youtube.swift-youtube";
+				PRODUCT_BUNDLE_IDENTIFIER = com.podongchina.youtube.youtube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
